@@ -27,6 +27,9 @@ from pet.wrapper import WRAPPER_TYPES, MODEL_CLASSES, SEQUENCE_CLASSIFIER_WRAPPE
 import pet
 import log
 
+import pet.scitail_task
+import pet.scitail_pvp
+
 logger = log.get_logger('root')
 
 
